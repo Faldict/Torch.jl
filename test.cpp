@@ -1,1 +1,1 @@
-for (int j = heap_size - 1, i = j >> 1; j > 1 && heap[i] > heap[j]; j = i, i >>= 1)
+for (int j = heap_size - 1, i = j >> 1; j > 1 && heap[i] > heap[j]; j = i, j >>= 1)
